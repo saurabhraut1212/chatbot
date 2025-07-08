@@ -32,7 +32,7 @@ const Login = () => {
     } else if (response?.ok) {
       toast.success("Login successful!");
               setTimeout(() => {
-              router.push("/");
+              router.push("/chat");
               }, 2000);
     }
   };
